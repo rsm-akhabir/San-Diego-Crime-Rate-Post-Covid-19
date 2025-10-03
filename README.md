@@ -1,6 +1,7 @@
-# Project Overview
+### Project Overview
 This project presents a comprehensive, data-driven framework for analyzing and forecasting crime patterns in San Diego using the National Incident-Based Reporting System (NIBRS) data. Spanning 2020 to the present, the dataset captures detailed information on crime type, time, location, and context. The project aims to support smarter policing strategies through temporal trend analysis, geospatial heatmaps, and predictive modeling of crime incidents—especially in light of disruptions caused by COVID-19.
-# Methods
+
+### Methods
 The analysis integrates exploratory data analysis, spatial mapping, and predictive machine learning:
 
 Trend Analysis: Monthly and annual breakdowns of crime by category (Property, Society, Personal) identify fluctuations pre-, during-, and post-COVID.
@@ -9,10 +10,10 @@ Geospatial Heatmaps: Visualize neighborhood-level crime concentrations to inform
 
 Random Forest Regression: Predicts future crime counts based on temporal, categorical, and contextual variables, achieving an R² of 0.92.
 
-# Data Preparation
+### Data Preparation
 Dataset: NIBRS San Diego incident-level data (2020–2024)
 
-# Cleaning & Structuring:
+### Cleaning & Structuring:
 
 - Filtered crime records for valid geographic coordinates and high geocoding confidence
 
@@ -20,7 +21,7 @@ Dataset: NIBRS San Diego incident-level data (2020–2024)
 
 - Added temporal features (month, day of week, hour) and lockdown/event labels
 
-# Feature Engineering:
+### Feature Engineering:
 
 - Labeled lockdown phases and major public events
 
@@ -28,7 +29,7 @@ Dataset: NIBRS San Diego incident-level data (2020–2024)
 
 - Added derived fields like "crime against" group and contextual markers for public holidays
 
-# Evaluation & Results
+### Evaluation & Results
 Key Findings:
 
 - Most common crimes: Group B, Larceny/Theft, and Assault offenses
@@ -39,13 +40,13 @@ Key Findings:
 
 - Event impact: Major holidays had significantly fewer incidents—possibly due to increased policing or public caution
 
-# Model Performance:
+### Model Performance:
 
 - Random Forest Regressor achieved an R² of 0.92, effectively capturing seasonal and pandemic-related fluctuations
 
 - Top predictive features included month, crime type, and lockdown status
 
-# Financial and Public Safety Relevance
+### Financial and Public Safety Relevance
 - By identifying high-crime neighborhoods and forecasting future hotspots, this project helps optimize:
 
 - Police deployment strategies (e.g., during late-night hours, weekends, or known peak months)
@@ -56,7 +57,7 @@ Key Findings:
 
 Tech Stack: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Leaflet (map visualization), Jupyter Notebook
 
-# Key Outcomes: 
+### Key Outcomes: 
 
 - Delivered a predictive crime model with 92% accuracy
 
