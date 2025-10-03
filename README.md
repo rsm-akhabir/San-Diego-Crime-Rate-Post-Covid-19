@@ -1,6 +1,5 @@
 # Project Overview
 This project presents a comprehensive, data-driven framework for analyzing and forecasting crime patterns in San Diego using the National Incident-Based Reporting System (NIBRS) data. Spanning 2020 to the present, the dataset captures detailed information on crime type, time, location, and context. The project aims to support smarter policing strategies through temporal trend analysis, geospatial heatmaps, and predictive modeling of crime incidents—especially in light of disruptions caused by COVID-19.
-
 # Methods
 The analysis integrates exploratory data analysis, spatial mapping, and predictive machine learning:
 
